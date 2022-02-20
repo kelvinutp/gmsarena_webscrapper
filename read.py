@@ -4,7 +4,7 @@ import re
 import time
 import pandas as pd
 
-url=r''
+url=r''#place link between quotes
 a=re.search(r'.*.com/',url)
 main_url=a[0]
 print("Main url: ",main_url)
